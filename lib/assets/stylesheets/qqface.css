@@ -1,0 +1,30 @@
+/******qqFace*****/
+.tools{
+    display:inline-block;
+    padding:5px;
+}
+.faceBtn{
+    color:#656565;
+    font-size:12px;
+    width:80px;
+    height:25px;
+    line-height:25px;
+    padding-left:25px;
+    background:url(/images/face.gif) 4px 4px no-repeat;
+    cursor:pointer;
+}
+.qqFace{
+    background:#fff;
+    padding:8px;
+    border:1px #AAAAAA solid;
+}
+.qqFace table td{
+    padding:2px;
+}
+.qqFace table td img{
+    cursor:pointer;
+    border:1px #fff solid;
+}
+.qqFace table td img:hover{
+    border:1px #0066cc solid;
+}
