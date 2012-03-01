@@ -21,7 +21,7 @@ module Qqface
       });
     </script>
 JS
-      html.join('\n').html_safe
+      html.join('').html_safe
     end
     
   end

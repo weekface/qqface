@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    qqface (0.0.1)
-      rails (~> 3.2.1)
+    qqface (0.1.0)
+      rails (~> 3.2.0)
 
 GEM
   remote: http://rubygems.org/
