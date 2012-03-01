@@ -4,12 +4,15 @@
       <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
 
       <ul>
-      <% @post.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
+        <% @post.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
       </ul>
     </div>
   <% end %>
+  <% text = "[/表情1] hi how are you? [/表情37]" %>
+
+  <%= simple_format(qqface_format(text)) %>
 
   <div class="field">
     <%= f.label :title %><br />
@@ -17,6 +20,7 @@
   </div>
   <div class="field">
     <%= f.label :content %><br />
+    <%= qqface_button_tag('post_content') %>
     <%= f.text_area :content %>
   </div>
   <div class="actions">

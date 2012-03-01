@@ -10,7 +10,7 @@
     height:25px;
     line-height:25px;
     padding-left:25px;
-    background:url(/images/face.gif) 4px 4px no-repeat;
+    background:url(/assets/face.gif) 4px 4px no-repeat;
     cursor:pointer;
 }
 .qqFace{
@@ -27,4 +27,22 @@
 }
 .qqFace table td img:hover{
     border:1px #0066cc solid;
+}
+#facebox{
+    background: #FFFFFF url(/assets/face_bg.gif) no-repeat scroll 4px 8px;
+    width: 450px;
+    height:180px;
+}
+#facebox a {
+    text-decoration: none;
+    background: transparent;
+}
+#facebox span {
+    margin: 4px 1px;
+    display:inline-block;
+    height:24px;
+    width:24px;
+}
+#facebox span:hover {
+    border: 1px solid blue;
 }
