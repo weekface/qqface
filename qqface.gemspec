@@ -11,7 +11,9 @@ Gem::Specification.new do |s|
   s.email       = ["weekface@gmail.com"]
   s.homepage    = "http://weekface.github.com"
   s.summary     = "add qq face to your application."
-  s.description = "add qq face to your application."
+  s.description = "This is a gem to helper you quick add qqface function to your application.\n
+
+This is a wrapper for the jquery.qqFace.js plugin, and add two action view helper method for use easy."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.markdown"]
   s.test_files = Dir["test/**/*"]
